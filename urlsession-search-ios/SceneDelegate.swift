@@ -19,6 +19,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
       window?.rootViewController = ViewController()
       window?.backgroundColor = UIColor.white
       window?.makeKeyAndVisible()
+      window?.insetsLayoutMarginsFromSafeArea = true
       guard let _ = (scene as? UIWindowScene) else { return }
   }
 
